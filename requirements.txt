@@ -1,0 +1,7 @@
+Gymnasium==0.26.3
+networkx==3.1
+numpy==1.24.3
+pandas==1.5.3
+sumolib==1.15.0
+torch==2.0.0
+traci==1.15.0
