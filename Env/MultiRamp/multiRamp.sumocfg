@@ -1,0 +1,23 @@
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="multiRamp.net.xml" />
+        <route-files value="flow.rou.xml" />
+		
+		<additional-files value="flow.vtype.xml,denseDetectors.add.xml" />
+    </input>
+	<seed value="23423" />
+    <time>
+      <begin value="0" />
+	  <end value="3600" />
+    </time>
+	<verbose vale="true" />
+	
+	<lateral-resolution value="0.0" />
+    <processing>
+        <time-to-teleport value="-1" />
+        <max-depart-delay value="-1" />
+        <extrapolate-departpos values="true" />
+    </processing>
+
+</configuration>

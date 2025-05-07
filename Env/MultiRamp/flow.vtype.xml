@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+	<!-- <vType id="newType" maxSpeed="40" length="5" tau="1.2" sigma="0.5" accel="2.6" decel="4.5" minGap="2.0" speedFactor="normc(0.9, 0.05, 0.5, 1.1)" lcStrategic="1" lcCooperative="1.0" lcSpeedGain="4.0" lcAssertive="3" /> -->
+	<vType id="newType" maxSpeed="50" length="5" tau="1.10" sigma="0.3" accel="2.6" decel="4.5" minGap="2.0" speedFactor="1.0" speedDev="0.03" lcStrategic="0.8" lcCooperative="1.0" lcSpeedGain="2.5" lcAssertive="3.0" impatience="1.0" lcOvertakeRight="0.3" lcLookaheadLeft="0.5" />
+	<route id="route0" color="#1f77b4" edges="VirtualM1 M1 M2 M3 OFR0_1" />
+	<route id="route1" color="#1f77b4" edges="VirtualM1 M1 M2 M3 M4 OFR1_1" />
+	<route id="route2" color="#1f77b4" edges="VirtualM1 M1 M2 M3 M4 M5 M6 OFR2_1" />
+	<route id="route3" color="#1f77b4" edges="VirtualM1 M1 M2 M3 M4 M5 M6 M7 M8 OFR3_1" />
+	<route id="route4" color="#1f77b4" edges="VirtualM1 M1 M2 M3 M4 M5 M6 M7 M8 M9 M10 M11" />
+	<route id="route5" color="#d62728" edges="VirtualONR0_1 ONR0_1 ONR0_2 M2 M3 OFR0_1" />
+	<route id="route6" color="#d62728" edges="VirtualONR0_1 ONR0_1 ONR0_2 M2 M3 M4 OFR1_1" />
+	<route id="route7" color="#d62728" edges="VirtualONR0_1 ONR0_1 ONR0_2 M2 M3 M4 M5 M6 OFR2_1" />
+	<route id="route8" color="#d62728" edges="VirtualONR0_1 ONR0_1 ONR0_2 M2 M3 M4 M5 M6 M7 M8 OFR3_1" />
+	<route id="route9" color="#d62728" edges="VirtualONR0_1 ONR0_1 ONR0_2 M2 M3 M4 M5 M6 M7 M8 M9 M10 M11" />
+	<route id="route10" color="#2ca02c" edges="VirtualONR1_1 ONR1_1 ONR1_2 M6 OFR2_1" />
+	<route id="route11" color="#2ca02c" edges="VirtualONR1_1 ONR1_1 ONR1_2 M6 M7 M8 OFR3_1" />
+	<route id="route12" color="#2ca02c" edges="VirtualONR1_1 ONR1_1 ONR1_2 M6 M7 M8 M9 M10 M11" />
+	<route id="route13" color="#8c564b" edges="VirtualONR2_1 ONR2_1 ONR2_2 M8 OFR3_1" />
+	<route id="route14" color="#8c564b" edges="VirtualONR2_1 ONR2_1 ONR2_2 M8 M9 M10 M11" />
+	<route id="route15" color="#e377c2" edges="VirtualONR3_1 ONR3_1 ONR3_2 M10 M11" />
+</additional>
