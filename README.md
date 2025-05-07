@@ -20,14 +20,14 @@ AttentionRampMetering/
 │
 ├──main.py
 │
-├─Env/
+├─ Env/
 │  ├──multiRampEnv.py             # the environment class
 │  ├──detectorGroup.py
 │  ├──parseDetectors.py
 │  ├──quickStart.py
 │  ├──sumoStart.py
 │  ├──trafficElement.py
-│  └─MultiRamp/
+│  └─ MultiRamp/
 │      ├──detectorPos.CSV
 │      ├──denseDetectors.add.xml  # detectors configuration
 │      ├──flow.rou.xml            # traffic flow configuration
@@ -35,7 +35,7 @@ AttentionRampMetering/
 │      ├──multiRamp.net.xml       # network configuration
 │      └──multiRamp.sumocfg       # simulation configuration
 │
-└─RL/
+└─ RL/
     ├──attention.py               # attention layers and mlp layers
     ├──ppo_continuous.py          # PPO algorithm implementation
     ├──buffer.py
@@ -68,7 +68,7 @@ AttentionRampMetering/
 If you use this code in your research, please cite the following paper:
 
 ```bibtex
-@article{yu2023coordinated,
+@article{yu2025coordinated,
   title={},
   author={},
 }
