@@ -38,11 +38,11 @@ def parse_args():
     parser.add_argument("--hidden_dim", type=int, default=128)
     parser.add_argument("--model_dim", type=int, default=16)
     parser.add_argument("--feed_forward_dim", type=int, default=256)
-    parser.add_argument("--num_attend_layer", type=int, default=2)
+    parser.add_argument("--num_attend_layer", type=int, default=1)
     parser.add_argument("--num_head", type=int, default=4)
     parser.add_argument("--dropout", type=float, default=0.1)
     # parameters associate with reinforcement learning
-    parser.add_argument("--lr", type=float, default=4e-4)
+    parser.add_argument("--lr", type=float, default=8e-4)
     parser.add_argument("--gamma", type=float, default=0.99)
     parser.add_argument("--gae_lambda", type=float, default=0.95)
     parser.add_argument("--k_epoch", type=int, default=4)
